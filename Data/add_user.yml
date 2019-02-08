@@ -1,0 +1,17 @@
+User:
+  test_user_001:
+    name: ""
+    phone: ""
+    expect: ""
+  test_user_002:
+    name: "1x"
+    phone: ""
+    expect: "1x"
+  test_user_003:
+    name: "1xx"
+    phone: "1 348-883-4010"
+    expect: "1xx"
+  test_user_004:
+    name: "1xxx"
+    phone: "1 348-883-4011"
+    expect: "1xxx"
